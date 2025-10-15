@@ -1,0 +1,178 @@
+body{
+margin:0 auto;
+    height: 100vh;
+    width:auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+/*Promena boje i meseca u zavisnosti od toga koliko je sati*/
+.sest10{
+margin:0 auto;
+    height: 100vh;
+    width:auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+      transition: background-color 0.5s ease;
+}
+.deset14{
+    margin:0 auto;
+    height: 100vh;
+    width:auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0.751);
+      transition: background-color 0.5s ease;
+}
+.cetrnest18{
+    margin:0 auto;
+    height: 100vh;
+    width:auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 115, 1);
+      transition: background-color 0.5s ease;
+}
+.osamnest20{
+       margin:0 auto;
+    height: 100vh;
+    width:auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 98, 0, 0.814);
+      transition: background-color 0.5s ease;
+}
+.dvadeset23{
+      margin:0 auto;
+    height: 100vh;
+    width:auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to right,rgba(0, 0, 255, 0.36),rgba(0, 0, 0, 0.581));
+      transition: background-color 0.5s ease;
+}
+.dvadesettri2{
+    margin:0 auto;
+    height: 100vh;
+    width:auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+          background-image:linear-gradient(to right,rgba(0, 0, 0, 0.907),rgba(0, 0, 0, 0.37));
+
+    
+}
+.dva6{
+margin:0 auto;
+    height: 100vh;
+    width:auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+       background-image:linear-gradient(to right,rgba(0, 0, 0, 0.581),rgba(0, 0, 255, 0.36));
+      transition: background-color 0.5s ease;
+}
+
+
+
+
+/*Digitalni sat sa datumom*/
+.digitalni{
+    margin: 0 auto;
+    border:3px solid #001f3f;
+    border-radius: 10px;
+    max-width: auto;
+    max-height: auto;
+    padding: 15px;
+       color: #001f3f;
+ text-shadow: 0 0 15px rgba(255,255,255,0.7);
+  
+  
+}
+.sat{
+      font-size: 100px;
+       text-align: center;
+}
+.datum{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+/*Div koji predstavlja mesec i sunce*/
+.mesecSunce
+{ 
+position: fixed;
+top:1%;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+
+}
+
+
+
+/*Sunce, kako se menja po satima*/
+.suncePrvo{
+   background-image:linear-gradient(to right,rgb(255, 119, 0),yellow);
+    border:30px solid orangered;
+}
+.sunceDrugo{
+   background-image:linear-gradient(to right,rgba(255, 255, 0, 0.458),yellow);
+    border:3px solid rgba(255, 60, 0, 0.586);
+      box-shadow: 0 0 20px rgba(255, 89, 0, 0.689);
+}
+.sunceTrece{
+   background-image:linear-gradient(to right,yellow,rgba(255, 255, 0, 0.458));
+    border:3px solid rgba(255, 149, 0, 0.586);
+}
+.sunceCetvrto{
+   background-image:linear-gradient(to right,yellow,rgb(255, 119, 0));
+    border:3px solid orangered;
+}
+
+
+
+
+/*Mesec, kako se menja po satima*/
+.mesecPrvi{
+    background-image:linear-gradient(to right,grey,white);
+    
+    border:3px solid grey;
+    border-radius: 100px 0px 0 100px;
+    width: 100px;
+}
+.mesecDrugi{
+    background-image:linear-gradient(to right,grey,rgba(255, 255, 255, 0.863));
+   
+    border:5px solid grey;
+    box-shadow: 0 0 20px rgba(255,255,255,0.6);
+}
+.mesecTreci{
+    background-image:linear-gradient(to right,grey,white);
+   
+    border:3px solid grey;
+     border-radius: 00px 100px 100px 00px;
+     box-shadow: 0 0 20px rgba(255,255,255,0.6);
+  width:100px
+}
+/*Promena digitalnog sata kada padne noc zbog preglednosti*/
+.tekst{
+    color: #39ff14;
+     border:3px solid #39ff14;
+     margin: 0 auto;
+    border-radius: 10px;
+    max-width: auto;
+    max-height: auto;
+    padding: 15px;
+ text-shadow: 0 0 15px rgba(255,255,255,0.7);
+ 
+}

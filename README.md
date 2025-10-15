@@ -8,3 +8,5 @@ Digital clock made with HTML, CSS and JavaScript where the background changes de
 
 # Technologies
 HTML, CSS, JavaScript
+
+Live demo: https://ivanstoskovic1.github.io/Digital-watch/
